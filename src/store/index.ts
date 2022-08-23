@@ -1,3 +1,6 @@
+import { GalerySlice } from './helpers/galery';
+import { PostsSlice } from './helpers/posts';
+import { UsersSlice } from './helpers/users';
 import Vue from 'vue'
 import Vuex from 'vuex'
 
@@ -13,5 +16,8 @@ export default new Vuex.Store({
   actions: {
   },
   modules: {
+    UsersSlice,
+    PostsSlice,
+    GalerySlice
   }
 })

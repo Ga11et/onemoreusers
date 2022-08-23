@@ -1,0 +1,28 @@
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 300ms;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.swipeRight-enter-active, .swipeRight-leave-active {
+  transition: all 1s;
+}
+.swipeRight-leave-to {
+  transform: translateX(100%);
+}
+.swipeRight-enter{
+  transform: translateX(-100%);
+}
+
+.swipeLeft-enter-active, .swipeLeft-leave-active {
+  transition: all 1s;
+}
+.swipeLeft-leave-to {
+  transform: translateX(-100%);
+}
+.swipeLeft-enter{
+  transform: translateX(100%);
+}
