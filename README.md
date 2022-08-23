@@ -1,19 +1,3 @@
-# one-more-users
+# Link to deployed project:
 
-## Project setup
-```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## https://ga11et.github.io/onemoreusers
